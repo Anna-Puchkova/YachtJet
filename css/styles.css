@@ -211,7 +211,7 @@ margin-right: 295px;
 .adventure-title-hero{
 margin-top: 50px;
 
-  width: 100%;
+  width: 404px;
   font-weight: 400;
 font-size: 23px;
 line-height: 1;
@@ -237,8 +237,14 @@ width: 1340px;
 }
 /* #endregion adventure */
 /* #region choose yacht */
-/*
-.choose-yacht-title{
+
+.title-choose{
+  flex-direction: column;
+  margin-top: 150px;
+  margin-bottom: 75px;
+  margin-left: 363px;
+
+  width: 714px;
   font-weight: 500;
 font-size: 48px;
 line-height: 1;
@@ -247,34 +253,45 @@ text-align: center;
 color: #fbfbfb;
 }
 
-.choose-yacht-list{
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 32px;
-border-radius: 24px;
-width: 100%;
-height: 508px;
+
+.choose-list{
+ display: flex;
+ justify-content: center;
+ gap: 32px;
+}
+.choose-item{
+ padding: 16px;
+ background-color: #fff;
+ border-radius: 24px;
+ 
 }
 
-.choose--titletext{
-  display: flex;
-  justify-content: space-between;
-}
-.yacht-choose-title{
-  padding-top: 32px;
-  padding-left: 32px;
+.images-choose{
   padding-bottom: 32px;
+}
+.name-container{
+  display: flex;
+}
+.name-yacht{
+margin-right: 162px;
   font-weight: 500;
 font-size: 16px;
 line-height: 1.2;
 letter-spacing: -0.04em;
 text-transform: uppercase;
 color: #1b414b;
-margin-right: 168px;
-}
 
-.choose-yacht-text{
+}
+.name-yacht-benetti{
+  
+ font-weight: 500;
+font-size: 16px;
+line-height: 1.2;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+color: #1b414b;
+}
+.name-yacht-text{
   font-weight: 400;
 font-size: 13px;
 line-height: 1.18;
@@ -283,44 +300,130 @@ text-transform: uppercase;
 color: #040306;
 opacity: 0.4;
 }
+.icons-choose{
+stroke-width: 1px;
+stroke: rgba(4, 3, 6, 0.1);
+}
+.characteristics-container{
+    
+}
+.characteristics-list{
+  padding-top: 16px;
+}
 
-.choose-yacht-chatacteristics{
+.characteristics-item{
+  display: flex;
+}
+
+
+.characteristics-bulder{
+  padding-right: 172px;
+  padding-bottom: 6px;
+  font-weight: 400;
+font-size: 14px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #040306;
+opacity: 0.4;
+}
+.characteristics-length{
+  padding-right: 175px;
+  padding-bottom: 6px;
+  font-weight: 400;
+font-size: 14px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #040306;
+opacity: 0.4;
+}
+.characteristics-shipyard{
+   padding-right: 160px;
+  padding-bottom: 6px;
+  font-weight: 400;
+font-size: 14px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #040306;
+opacity: 0.4;
+}
+.characteristics-built{
+  padding-right: 193px;
+  padding-bottom: 6px;
+  font-weight: 400;
+font-size: 14px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #040306;
+opacity: 0.4;
+}
+.characteristics-guests{
+  padding-right: 175px;
+  padding-bottom: 6px;
+  font-weight: 400;
+font-size: 14px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #040306;
+opacity: 0.4;
+}
+
+.characteristics-price{
+  padding-right: 192px;
+  padding-bottom: 6px;
+  font-weight: 400;
+font-size: 14px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #040306;
+opacity: 0.4; 
+}
+.characteristics-text{
+
   font-weight: 400;
 font-size: 14px;
 line-height: 1.18;
 letter-spacing: 0.03em;
 color: #040306;
 }
-.choose-yacht-item{
-  background-color: #FBFBFB
-}
 
+.choose-button{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .button-choose{
-  background-color: #1B414B;
+  background-color: transparent;
   border: 1px solid rgba(251, 251, 251, 0.35);
 border-radius: 15px;
 padding: 16px 40px;
 width: 179px;
 height: 52px;
-  font-weight: 500;
+font-family: "Inter", sans-serif;
+font-weight: 500;
 font-size: 18px;
 line-height: 1.1;
 letter-spacing: -0.02em;
 color: #fbfbfb;
-}
 
+}
 .button-choose:hover,
 .button-choose:focus{
-  font-weight: 500;
+  background-color: #fbfbfb;
+font-weight: 500;
 font-size: 18px;
 line-height: 1.1;
 letter-spacing: -0.02em;
 color: #1b414b;
-  background: #fbfbfb;
 }
 
 /* #endregion choose yacht */
-
 
 
 /* #region rest */
