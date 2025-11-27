@@ -397,6 +397,7 @@ color: #040306;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 150px;
 }
 .button-choose{
   background-color: transparent;
@@ -426,7 +427,87 @@ color: #1b414b;
 /* #endregion choose yacht */
 
 
+.pharacteristic{
+  gap: 32px;
+}
+.yacht-pharacteristic-list {
+  border-radius: 24px;
+  width: 768px;
+  background-color: #1b414b;
+  padding: 90px 59px;
+height: 424px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px 48px;
+}
+
+.ph-item {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.ph-number {
+ font-weight: 500;
+font-size: 32px;
+line-height: 1;
+letter-spacing: -0.05em;
+color: #fbfbfb;
+  margin-bottom: 12px;
+}
+
+.ph-line {
+  border-radius: 18px;
+width: 318px;
+height: 2px;
+  background-color: rgba(251, 251, 251, 0.1);
+}
+
+.ph-text {
+  font-weight: 400;
+font-size: 13px;
+line-height: 1.15;
+letter-spacing: -0.02em;
+color: #fbfbfb;
+  opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.yachtcabin-img{
+  border-radius: 24px;
+width: 540px;
+height: 424px;
+margin-left: 32px;
+}
+
+
+
 /* #region rest */
+
+.thesternof-img{
+  margin-top: 150px;
+  border-radius: 24px;
+  margin-right: 50px;
+}
+.thesternof-tite{
+  margin-top: 150px;
+  margin-bottom: 50px;
+  font-weight: 500;
+font-size: 48px;
+line-height: 1;
+letter-spacing: -0.02em;
+color: #fbfbfb;
+}
 .form-yacht{
 width: 472px;
 }
@@ -464,8 +545,114 @@ padding: 18px 75px;
 width: 194px;
 height: 56px;
 background-color: #1b414b;
+font-weight: 500;
+font-size: 18px;
+line-height: 1.1;
+letter-spacing: -0.02em;
+color: #fbfbfb;
 }
+
+.button-form:hover,
+.button-form:focus{
+  background-color: #fbfbfb;
+border-radius: 15px;
+padding: 18px 75px;
+width: 194px;
+height: 56px;
+font-weight: 500;
+font-size: 18px;
+line-height: 1.1;
+letter-spacing: -0.02em;
+color: #1b414b;
+}
+
 /* #endregion rest */
+.region-team{
+margin-top: 150px;
+text-align: center;
+}
+.team-title{
+  display: block;
+  
+}
+.region-team-title{
+ 
+  font-weight: 500;
+font-size: 48px;
+line-height: 1;
+letter-spacing: -0.02em;
+text-align: center;
+color: #fbfbfb;
+max-width: 854px;
+
+  margin: 0 auto;
+
+}
+
+.region-team-text{
+  padding-top: 25px;
+  font-weight: 400;
+font-size: 14px;
+line-height: 1.28571;
+letter-spacing: -0.02em;
+text-align: center;
+color: #fbfbfb;
+opacity: 0.4;
+
+max-width: 600px;
+margin: 0 auto 75px auto; 
+
+}
+
+
+.region-team-list{
+  display: flex;
+ gap: 32px;
+
+}
+.region-team-item{
+background-color: #fbfbfb;
+border-radius: 24px;
+padding: 32px 36px;
+width: 392px;
+height: 282px;
+margin-bottom: 150px;
+
+}
+
+.team-photo{
+padding-left: 132px;
+padding-bottom: 24px;
+}
+
+.region-team-name-cont{
+  width: 320px;
+}
+.region-team-name{
+  font-weight: 500;
+font-size: 18px;
+line-height: 1.1;
+letter-spacing: -0.02em;
+text-align: center;
+color: #040306;
+padding-bottom: 8px;
+}
+
+.region-team-p{
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.4;
+letter-spacing: -0.02em;
+text-align: center;
+color: rgba(4, 3, 6, 0.4);
+
+}
+
+
+
+
+
+
 
 
 /* #region footer */
