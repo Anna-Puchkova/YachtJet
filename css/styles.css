@@ -461,9 +461,11 @@ color: #fbfbfb;
 width: 318px;
 height: 2px;
   background-color: rgba(251, 251, 251, 0.1);
+
 }
 
 .ph-text {
+  padding-top: 18px;
   font-weight: 400;
 font-size: 13px;
 line-height: 1.15;
